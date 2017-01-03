@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5954B3C41DB5B8AC00FDCB29 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5954B3C31DB5B8AC00FDCB29 /* main.swift */; };
+		5954B3D31DB5B8FC00FDCB29 /* Cone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5954B3CA1DB5B8FC00FDCB29 /* Cone.swift */; };
+		5954B3D41DB5B8FC00FDCB29 /* Cylinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5954B3CB1DB5B8FC00FDCB29 /* Cylinder.swift */; };
+		5954B3D51DB5B8FC00FDCB29 /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5954B3CC1DB5B8FC00FDCB29 /* Geometry.swift */; };
+		5954B3D61DB5B8FC00FDCB29 /* GeometryCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5954B3CD1DB5B8FC00FDCB29 /* GeometryCalculator.swift */; };
+		5954B3D71DB5B8FC00FDCB29 /* GeometryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5954B3CE1DB5B8FC00FDCB29 /* GeometryType.swift */; };
+		5954B3D81DB5B8FC00FDCB29 /* IsoscelesTriangularPrism.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5954B3CF1DB5B8FC00FDCB29 /* IsoscelesTriangularPrism.swift */; };
+		5954B3D91DB5B8FC00FDCB29 /* RectangularPrism.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5954B3D01DB5B8FC00FDCB29 /* RectangularPrism.swift */; };
+		5954B3DA1DB5B8FC00FDCB29 /* Sphere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5954B3D11DB5B8FC00FDCB29 /* Sphere.swift */; };
+		5954B3DB1DB5B8FC00FDCB29 /* SquarePyramid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5954B3D21DB5B8FC00FDCB29 /* SquarePyramid.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5954B3BE1DB5B8AC00FDCB29 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5954B3C01DB5B8AC00FDCB29 /* GeometryCalculator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GeometryCalculator; sourceTree = BUILT_PRODUCTS_DIR; };
+		5954B3C31DB5B8AC00FDCB29 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		5954B3CA1DB5B8FC00FDCB29 /* Cone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cone.swift; sourceTree = "<group>"; };
+		5954B3CB1DB5B8FC00FDCB29 /* Cylinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cylinder.swift; sourceTree = "<group>"; };
+		5954B3CC1DB5B8FC00FDCB29 /* Geometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geometry.swift; sourceTree = "<group>"; };
+		5954B3CD1DB5B8FC00FDCB29 /* GeometryCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeometryCalculator.swift; sourceTree = "<group>"; };
+		5954B3CE1DB5B8FC00FDCB29 /* GeometryType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeometryType.swift; sourceTree = "<group>"; };
+		5954B3CF1DB5B8FC00FDCB29 /* IsoscelesTriangularPrism.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsoscelesTriangularPrism.swift; sourceTree = "<group>"; };
+		5954B3D01DB5B8FC00FDCB29 /* RectangularPrism.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangularPrism.swift; sourceTree = "<group>"; };
+		5954B3D11DB5B8FC00FDCB29 /* Sphere.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sphere.swift; sourceTree = "<group>"; };
+		5954B3D21DB5B8FC00FDCB29 /* SquarePyramid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquarePyramid.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5954B3BD1DB5B8AC00FDCB29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5954B3B71DB5B8AC00FDCB29 = {
+			isa = PBXGroup;
+			children = (
+				5954B3C21DB5B8AC00FDCB29 /* GeometryCalculator */,
+				5954B3C11DB5B8AC00FDCB29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5954B3C11DB5B8AC00FDCB29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5954B3C01DB5B8AC00FDCB29 /* GeometryCalculator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5954B3C21DB5B8AC00FDCB29 /* GeometryCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				5954B3CA1DB5B8FC00FDCB29 /* Cone.swift */,
+				5954B3CB1DB5B8FC00FDCB29 /* Cylinder.swift */,
+				5954B3CC1DB5B8FC00FDCB29 /* Geometry.swift */,
+				5954B3CD1DB5B8FC00FDCB29 /* GeometryCalculator.swift */,
+				5954B3CE1DB5B8FC00FDCB29 /* GeometryType.swift */,
+				5954B3CF1DB5B8FC00FDCB29 /* IsoscelesTriangularPrism.swift */,
+				5954B3D01DB5B8FC00FDCB29 /* RectangularPrism.swift */,
+				5954B3D11DB5B8FC00FDCB29 /* Sphere.swift */,
+				5954B3D21DB5B8FC00FDCB29 /* SquarePyramid.swift */,
+				5954B3C31DB5B8AC00FDCB29 /* main.swift */,
+			);
+			path = GeometryCalculator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5954B3BF1DB5B8AC00FDCB29 /* GeometryCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5954B3C71DB5B8AC00FDCB29 /* Build configuration list for PBXNativeTarget "GeometryCalculator" */;
+			buildPhases = (
+				5954B3BC1DB5B8AC00FDCB29 /* Sources */,
+				5954B3BD1DB5B8AC00FDCB29 /* Frameworks */,
+				5954B3BE1DB5B8AC00FDCB29 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeometryCalculator;
+			productName = GeometryCalculator;
+			productReference = 5954B3C01DB5B8AC00FDCB29 /* GeometryCalculator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5954B3B81DB5B8AC00FDCB29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = DaesubKim;
+				TargetAttributes = {
+					5954B3BF1DB5B8AC00FDCB29 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 5954B3BB1DB5B8AC00FDCB29 /* Build configuration list for PBXProject "GeometryCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5954B3B71DB5B8AC00FDCB29;
+			productRefGroup = 5954B3C11DB5B8AC00FDCB29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5954B3BF1DB5B8AC00FDCB29 /* GeometryCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5954B3BC1DB5B8AC00FDCB29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5954B3D81DB5B8FC00FDCB29 /* IsoscelesTriangularPrism.swift in Sources */,
+				5954B3D31DB5B8FC00FDCB29 /* Cone.swift in Sources */,
+				5954B3DA1DB5B8FC00FDCB29 /* Sphere.swift in Sources */,
+				5954B3DB1DB5B8FC00FDCB29 /* SquarePyramid.swift in Sources */,
+				5954B3D51DB5B8FC00FDCB29 /* Geometry.swift in Sources */,
+				5954B3D61DB5B8FC00FDCB29 /* GeometryCalculator.swift in Sources */,
+				5954B3D91DB5B8FC00FDCB29 /* RectangularPrism.swift in Sources */,
+				5954B3D41DB5B8FC00FDCB29 /* Cylinder.swift in Sources */,
+				5954B3C41DB5B8AC00FDCB29 /* main.swift in Sources */,
+				5954B3D71DB5B8FC00FDCB29 /* GeometryType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5954B3C51DB5B8AC00FDCB29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5954B3C61DB5B8AC00FDCB29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5954B3C81DB5B8AC00FDCB29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5954B3C91DB5B8AC00FDCB29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5954B3BB1DB5B8AC00FDCB29 /* Build configuration list for PBXProject "GeometryCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5954B3C51DB5B8AC00FDCB29 /* Debug */,
+				5954B3C61DB5B8AC00FDCB29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5954B3C71DB5B8AC00FDCB29 /* Build configuration list for PBXNativeTarget "GeometryCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5954B3C81DB5B8AC00FDCB29 /* Debug */,
+				5954B3C91DB5B8AC00FDCB29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5954B3B81DB5B8AC00FDCB29 /* Project object */;
+}
